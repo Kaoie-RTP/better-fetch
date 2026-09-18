@@ -1,6 +1,6 @@
 {
   "name": "@kaoie-rtp/better-fetch",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "Better Fetch is a lightweight, zero-dependency fetch wrapper for Browsers and Node.js",
   "keywords": [
     "fetch",
