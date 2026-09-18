@@ -1,6 +1,6 @@
 {
   "name": "@kaoie-rtp/better-fetch",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Better Fetch is a lightweight, zero-dependency fetch wrapper for Browsers and Node.js",
   "keywords": [
     "fetch",
@@ -22,7 +22,8 @@
   ],
   "scripts": {
     "build": "rolldown",
-    "test": "vitest"
+    "test": "vitest",
+    "release": "pnpm run build && pnpm run test && pnpm publish"
   },
   "license": "MIT",
   "author": "Ratipat Ongniam <kaoratipatra@gmail.com>",
@@ -35,5 +36,8 @@
     "rolldown": "^1.2.9",
     "typescript": "^7.0.2",
     "vitest": "^5.0.1"
+  },
+  "dependencies": {
+    "rolldown-plugin-dts": "^0.28.6"
   }
 }
