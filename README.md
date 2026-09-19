@@ -5,7 +5,7 @@
 ## 📦 Installation
 
 ```bash
-npm install @kaoie/better-fetch
+npm install @kaoie-rtp/better-fetch
 ```
 
 ## 🚀 Quick Start
